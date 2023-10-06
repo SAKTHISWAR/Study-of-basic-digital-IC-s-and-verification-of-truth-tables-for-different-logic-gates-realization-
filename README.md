@@ -66,7 +66,7 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
 ```python 
 
 
-module DE1(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor); 
+module ex1(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor); 
 input a,b;
 output yand,yor,ynot,yxor,ynand,ynor,yxnor;
 and(yand,a,b);
